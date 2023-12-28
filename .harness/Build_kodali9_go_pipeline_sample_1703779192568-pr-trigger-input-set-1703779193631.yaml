@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kodali9_go_pipeline_sample_1703779192568-pr-trigger-input-set
+  identifier: Build_kodali9_go_pipeline_sample_1703779192568prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: learninggettingstartedwithharnessci
+  pipeline:
+    identifier: Build_kodali9_go_pipeline_sample_1703779192568
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
