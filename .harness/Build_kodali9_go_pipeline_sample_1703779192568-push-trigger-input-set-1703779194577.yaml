@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kodali9_go_pipeline_sample_1703779192568-push-trigger-input-set
+  identifier: Build_kodali9_go_pipeline_sample_1703779192568pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: learninggettingstartedwithharnessci
+  pipeline:
+    identifier: Build_kodali9_go_pipeline_sample_1703779192568
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
