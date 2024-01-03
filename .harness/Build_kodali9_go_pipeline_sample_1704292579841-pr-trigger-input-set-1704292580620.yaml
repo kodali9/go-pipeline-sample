@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kodali9_go_pipeline_sample_1704292579841-pr-trigger-input-set
+  identifier: Build_kodali9_go_pipeline_sample_1704292579841prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kodali9_go_pipeline_sample_1704292579841
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
